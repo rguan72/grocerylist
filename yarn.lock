@@ -1736,11 +1736,6 @@
     lodash "^4.5.0"
     prop-types "^15.6.1"
 
-a11y-react-emoji@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/a11y-react-emoji/-/a11y-react-emoji-1.1.2.tgz#352a0802522d5a9e137c3239d10bc7b9a3416ed5"
-  integrity sha512-spdYr/mgaGAYOFD/a250CUQ1MIvybK1clZgSfkzO2nxLQQQZbM7FEQrisOQntqGVm6fm0Ye57H3euSUJYpX9NQ==
-
 abab@^2.0.0:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/abab/-/abab-2.0.3.tgz#623e2075e02eb2d3f2475e49f99c91846467907a"

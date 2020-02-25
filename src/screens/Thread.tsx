@@ -30,7 +30,13 @@ export default function Thread() {
           <ListItem user={item.user} description={item.description} />
         )}
       />
-      <Layout style={[styles.footer, styles.offwhite]}>
+      <Layout
+        style={{
+          justifyContent: "flex-end",
+          flex: 1,
+          backgroundColor: "#F0F0F0"
+        }}
+      >
         <Input
           placeholder="Add comment"
           value={value}
@@ -64,8 +70,5 @@ const styles = StyleSheet.create({
   },
   mt0: {
     marginTop: 0
-  },
-  offwhite: {
-    backgroundColor: "F0F0F0"
   }
 });

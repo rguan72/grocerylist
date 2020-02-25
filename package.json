@@ -13,7 +13,6 @@
     "@react-navigation/native": "^5.0.6",
     "@react-navigation/stack": "^5.0.6",
     "@ui-kitten/components": "^4.4.0",
-    "a11y-react-emoji": "^1.1.2",
     "concurrently": "^5.1.0",
     "expo": "~36.0.0",
     "prop-types": "^15.7.2",

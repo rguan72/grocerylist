@@ -21,9 +21,3 @@ GroupItem.propTypes = {
   description: PropTypes.string.isRequired,
   onPress: PropTypes.func.isRequired
 };
-
-const styles = StyleSheet.create({
-  card: {
-    minWidth: "100vw"
-  }
-});

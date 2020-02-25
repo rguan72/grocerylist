@@ -1,8 +1,19 @@
 import React from "react";
-import Emoji from "a11y-react-emoji";
+import { Text } from "react-native";
+
+interface EmojiProps {
+  symbol: string;
+  label?: string;
+}
+
+const Emoji = ({ label, symbol }: EmojiProps) => (
+  <Text aria-label={label ? label : ""} aria-hidden={label ? "false" : "true"}>
+    {symbol}
+  </Text>
+);
 
 function HandEmoji() {
-    return <Emoji symbol="🖐️" label="hand" />
+  return <Emoji symbol="🖐️" label="hand" />;
 }
 
 export { HandEmoji };
